@@ -49,7 +49,7 @@ export default function App() {
     const temp_data =
       url !== null
         ? url.split("offset")[1].split("=")[1].split("&")[0] / 20
-        : 1;
+        : 0;
     SETID(temp_data + 1);
   };
 
